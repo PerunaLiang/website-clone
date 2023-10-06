@@ -1,0 +1,243 @@
+<!-- WEBSITE CLONE:
+ 
+Utilising your HTML and CSS skills, I would like you to select a website and recreate the landing page of your chosen website from scratch, with your own HTML and CSS.
+Think about how the website is constructed. Which HTML elements are being used? How are these elements structured / arranged? What CSS properties are being edited to achieve the end-result?
+Make use of the developer tools in your web browser to review the HTML and CSS of the website, in order to aide you in your recreation. CSS Overview in google chrome can give you insight into details such as which fonts and colours have been used.
+Only the visual design / layout of the website is required, you are not expected to add any additional pages or functionality that is not achievable with standard HTML and CSS.
+Ensure that you take some time to plan your approach before writing your code, as this will aide you in the process! Pick a website that will challenge you, however, is also achievable.
+Once completed the website clone will be a good project to show off on your portfolio! 
+-->
+
+<!-- get ideas or use https://www.frontendpractice.com/projects -->
+<!-- idealy upload to github before monday session -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Clone</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<body>
+
+    <header class="grid1">
+
+
+
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Etsy_logo.svg/2560px-Etsy_logo.svg.png"
+                alt="Logo">
+        </div>
+
+
+        <div class="categories">
+            <ion-icon name="menu-outline"></ion-icon> Categories
+        </div>
+
+        <div class="searchbar">
+            <label for="search">
+                <input id="search" type="search" placeholder="Search for anything">
+                <button type="submit">
+                    <ion-icon name="search-outline"></ion-icon>
+                </button>
+            </label>
+        </div>
+
+        <div>
+            Sign in
+        </div>
+
+        <div>
+            <img class="icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/United-kingdom_flag_icon_round.svg/800px-United-kingdom_flag_icon_round.svg.png"
+                alt="">
+        </div>
+
+        <div>
+            <ion-icon name="heart-outline"></ion-icon>
+        </div>
+
+        <div class="basket">
+            <ion-icon name="basket-outline"></ion-icon>
+        </div>
+    </header>
+
+    <section class="grid2">
+
+        <h1 class="sectionh1">Fresh finds fit for cosy season</h1>
+        <img class="round" class="image1"
+            src="https://i.etsystatic.com/6359201/r/il/44fc00/1335360848/il_300x300.1335360848_cqhc.jpg" alt="">
+        <p class="text1">Seasonal</p>
+
+
+        <img class="round" class="image2"
+            src="https://i.etsystatic.com/37231598/r/il/df97f3/4839001175/il_300x300.4839001175_awxt.jpg" alt="">
+        <p class="text2">Personalised gifts</p>
+
+
+        <img class="round" class="image3"
+            src="https://i.etsystatic.com/22874345/r/il/ad6938/3286693196/il_300x300.3286693196_n3sm.jpg" alt="">
+        <p class="text3">Jewellery</p>
+
+        <img class="round" class="image4"
+            src="https://i.etsystatic.com/13828325/c/1688/1688/0/333/il/5312f2/5000970557/il_300x300.5000970557_4ajo.jpg"
+            alt="">
+        <p class="text4">Autumnal Home Decor</p>
+
+        <img class="round" class="image5"
+            src="https://i.etsystatic.com/28161636/r/il/7e16d0/4242796141/il_300x300.4242796141_alei.jpg" alt="">
+        <p class="text5">Wreaths</p>
+
+        <img class="round" class="image6"
+            src="https://i.etsystatic.com/24486130/r/il/7a7f4d/4218038694/il_300x300.4218038694_b5dr.jpg" alt="">
+        <p class="text6">On Sale</p>
+
+        <div class="whiteblock">
+
+        </div>
+
+
+        </div>
+    </section>
+
+    <!-- 
+    <section class="grid3">
+        
+        <h1>Popular gifts right now</h1>
+        <img src="./images/img1.jpg" alt="">
+        <p class="title">Engraved Jewellery, Leather Jewellery...</p>
+
+        <img src="./images/img2.jpg" alt="">
+        <p class="title">Personalised Luxuorius Soft Touch...</p>
+
+        <img src="./images/img3.jpg" alt="">
+        <p class="title">Personalised Name Necklace, Gifts for...</p>
+        <img src="./images/img4.jpg" alt="">
+        <p class="title">Custom Name Necklace, 18K Gold...</p>
+        <img src="./images/img5.jpg" alt="">
+        <p class="title">Personalised Embroidery Felt...</p>
+
+
+        <p class="rating">★★★★★ (4565) </p>
+        <p class="rating">★★★★★ (11,479)</p>
+        <p class="rating">★★★★★ (13,560)</p>
+        <p class="rating">★★★★★ (10,614) </p>
+        <p class="rating">★★★★★ (1,422)</p>
+ -->
+
+    <!--Christians example
+
+   <div class="gift-card">
+        <img src="" alt="Image">
+        <h2>Product Title</h2>
+        
+        <div class="ratings-wrapper">
+            <p class="stars">stars</p>
+            <p>numbers</p>
+        </div>
+
+        <div class="price-wrapper">
+            <p class="price">cost</p>
+            <p>discounts</p>
+        </div>
+    </div>
+     -->
+
+    <section class="grid3">
+
+        <h1>Popular gifts right now</h1>
+
+        <div class="popular">
+            <img src="./images/img1.jpg" alt="Image">
+            <h2>Engraved Jewellery, Leather Jewellery</h2>
+
+            <div class="ratings-wrapper">
+                <p class="stars">★★★★★ (4565)</p>
+
+            </div>
+
+            <div class="price-wrapper">
+                <p class="price">£5.16</p>
+                <p> <s>£10.33</s> 50% off</p>
+            </div>
+        </div>
+
+
+
+        <div class="popular">
+            <img src="./images/img2.jpg" alt="Image">
+            <h2>Personalised Luxuorius Soft Touch...</h2>
+
+            <div class="ratings-wrapper">
+                <p class="stars">★★★★★ (11,479)</p>
+
+            </div>
+
+            <div class="price-wrapper">
+                <p class="price">£2.99</p>
+                <p> <s>£5.98</s> 50% off</p>
+            </div>
+        </div>
+
+        <div class="popular">
+            <img src="./images/img3.jpg" alt="Image">
+            <h2>Personalised Name Necklace, Gifts for...</h2>
+
+            <div class="ratings-wrapper">
+                <p class="stars">★★★★★ (13,560)</p>
+
+            </div>
+
+            <div class="price-wrapper">
+                <p class="price">£49.56</p>
+                <p> <s>£123.90</s> 50% off</p>
+            </div>
+        </div>
+
+
+        <div class="popular">
+            <img src="./images/img4.jpg" alt="Image">
+            <h2>Custom Name Necklace, 18K Gold...</h2>
+
+            <div class="ratings-wrapper">
+                <p class="stars">★★★★★ (10,614)</p>
+
+            </div>
+
+            <div class="price-wrapper">
+                <p class="price">£9.99</p>
+                <p> <s>£19.98</s> 50% off</p>
+            </div>
+        </div>
+
+        <div class="popular">
+            <img src="./images/img5.jpg" alt="Image">
+            <h2>Personalised Embroidery Felt...</h2>
+
+            <div class="ratings-wrapper">
+                <p class="stars">★★★★★ (1,422)</p>
+
+            </div>
+
+            <div class="price-wrapper">
+                <p class="price">£4.60</p>
+                <p> <s>£11.50</s> 50% off</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+</body>
+
+</html>
